@@ -1,61 +1,66 @@
-/* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
-
-/* General body styling */
-.top p {
-    border: 1px solid rgb(159, 159, 159);
-    background-color: rgb(255, 255, 255);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 1px 1px rgb(108, 108, 108);
-    width: 400px;
-    height: 350px;
-}
-.body {
+body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #24d6f5;
 }
-/* Styling for the navigation bar */
-nav {
-    background-color: #10c7d4;
+
+header {
+    background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 1em 0;
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
-/* Styling for paragraphs inside the .top class */
-.bottom {
-    display: flex; 
-    justify-content: space-evenly;
+nav ul li {
+    margin: 0 1em;
 }
 
-.bottom p {
-    /* border: 2px solid lightcoral; */
-    background-color: rgb(216, 196, 171);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 1px 2px 1px grey;
-}
-.top{
-display: grid; /* Use CSS Grid layout */
-grid-template-columns: repeat(3, 1fr);
-color: black
-}
-/* Flexbox styling for the .bottom container */
-.bottom p {
-    background-color: rgb(68, 107, 235);
-    width: 3000px;
-    height: 100px;
-   
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.flex-container div {
+    flex: 1;
+    margin: 1em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+    padding: 2em;
+}
+
+.grid-container div {
+    text-align: center;
+}
