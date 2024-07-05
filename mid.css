@@ -45,8 +45,7 @@ footer {
 .flex-container {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    padding: 2em;
+
 }
 
 .flex-container div {
@@ -104,4 +103,25 @@ footer {
     padding: 20px;
   }
 
+}
+
+.flex-container p {
+    border: 1px solid rgb(159, 159, 159);
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px rgb(108, 108, 108);
+    width: 400px;
+    height: 350px;
+    
+}
+.body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #24d6f5;
+    display: flex;
+    justify-content: space-evenly;
 }
