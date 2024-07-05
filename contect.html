@@ -4,8 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="mid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>/* Styling for the navigation bar */
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #04AA6D;
+        }
+        </style>
 </head>
 <body>
-    
+    <nav>
+      <!-- Navigation bar -->
+        <ul>
+          <li><a href="index.html"><img src="logo3-removebg-preview.png" alt="Logo" style="width: 25px;"></a></li>
+            <li><a class="active" href="home.html"class="active">Home</a></li>
+            <li><a href="about.html">Product</a></li>
+            <li><a href="contect.html">Contact Us</a></li>
+            
+            <li><a href="#search">Search</a></li>
+        </ul>
+        <main>
+            <section>
+                <h1>Contact Us</h1>
+                <p>If you have any questions, feel free to reach out to us.</p>
+                <img src="laptop 2.png" alt="Contact Image 1">
+                <img src="laptop 2.png" alt="Contact Image 2">
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 My Online Store</p>
+        </footer>
+      
 </body>
 </html>

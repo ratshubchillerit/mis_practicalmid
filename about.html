@@ -4,8 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="mid.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>/* Styling for the navigation bar */
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: #04AA6D;
+        }
+        </style>
 </head>
 <body>
-    
+    <nav>
+      <!-- Navigation bar -->
+        <ul>
+          <li><a href="index.html"><img src="logo3-removebg-preview.png" alt="Logo" style="width: 25px;"></a></li>
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="about.html" class="active">Product</a></li>
+            <li><a href="contect.html">Contact Us</a></li>
+            
+            <li style="float:right"><a class="active" href="#search">Search</a></li>
+        </ul>
+        <main>
+            <section class="grid-container">
+                <div>
+                    
+                    <img src="laptop1.jpg" alt="Product Image 5" width='300'>
+                    <p>Microsoft Laptop 4 - 15" inches Screen, AMD R7/Windows 10 Home/8GB RAM/256 GB SSD/ Platinum - (5UI-00049) <br><b>
+                        Brand - Microsoft</b><br>Regular priceTk 2,499.00 BD</p>
+                    
+                </div>
+                <div>
+                    <img src="laptop1.jpg" alt="Product Image 5" width='300'>
+                    <p>Microsoft Laptop 4 - 15" inches Screen, AMD R7/Windows 10 Home/8GB <br><b>Brand - Microsoft</b><br>Regular priceTk 2,499.00 BD</p>
+                </div>
+                <div>
+                    <img src="laptop1.jpg" alt="Product Image 5" width='300'>
+                    <p>Microsoft Laptop 4 - 15" inches Screen, AMD R7/Windows 10 Home/8GB <br><b>Brand - Microsoft</b><br>Regular priceTk 2,499.00 BD</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2024 My Online Store</p>
+        </footer>
+      
 </body>
 </html>
