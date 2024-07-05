@@ -1,14 +1,8 @@
 body {
-    border: 1px solid rgb(159, 159, 159);
-    background-color: rgb(255, 255, 255);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 1px 1px rgb(108, 108, 108);
-    width: 400px;
-    height: 350px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
 
 header {
     background-color: #333;
@@ -58,6 +52,14 @@ footer {
 .flex-container div {
     flex: 1;
     margin: 1em;
+    border: 1px solid rgb(159, 159, 159);
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 1px 1px rgb(108, 108, 108);
+    width: 400px;
+    height: 350px;
 }
 
 .grid-container {
